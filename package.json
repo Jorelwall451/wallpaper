@@ -1,0 +1,18 @@
+{
+  "name": "wallpaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Jorelwall451/wallpaper.git",
+  "author": "Jorelwall451 <jorelwall154@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:babel": "babel --extensions .ts ./scripts --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "typescript": "^5.0.4"
+  }
+}
