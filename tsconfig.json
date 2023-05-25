@@ -3,9 +3,10 @@
         "strict": true,
         "target": "ES2016",
         "module": "CommonJS",
-        "outDir": "./dist",
+        "outDir": "dist",
         "declaration": true,
         "emitDeclarationOnly": true,
-        "isolatedModules": true
+        "isolatedModules": true,
+        "baseUrl": "src"
     }
 }

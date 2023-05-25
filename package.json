@@ -6,7 +6,7 @@
   "author": "Jorelwall451 <jorelwall154@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:babel": "babel --extensions .ts ./scripts --out-dir dist"
+    "build:babel": "babel --extensions .ts ./src/scripts --out-dir dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
